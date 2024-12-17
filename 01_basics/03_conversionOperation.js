@@ -13,7 +13,7 @@ console.log(typeof(valueInNumber));
 
 let age = 5 + "10"
 console.log(age);
-// js concatenates 5 and 10, assuming 10 is a string
+// js concatenates 5 and 10, assuming 10 is a string, output is 510
 
 let isEqual = 5 =="6"
 console.log(isEqual);
