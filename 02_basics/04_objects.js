@@ -58,7 +58,15 @@ console.log(Object.entries(tinderUser)); // this will return an array of arrays,
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));// this will return true if the key exists in the object, else false
 console.log(tinderUser.hasOwnProperty('isLoggedOut'));// returns false
 
+const course = {
+    courseName : "JS",
+    price: "999",
+    courseInstructor: "Ashish"
+}
 
+const {courseInstructor :instructor} = course// this is object destructuring. 
+// courseInstructor is the key in the object, and instructor is the variable where the value of the key will be stored
 
+console.log(instructor);
 
 
